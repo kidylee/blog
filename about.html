@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
     
-  Archives - Li An's Blog
+  About - Li An's Blog
   
   </title>
   
@@ -93,99 +93,25 @@
        
 
  <script type="text/javascript">
-  $(function(){
-    $('#menu_item_archives').addClass('is_active');
-  });
+	$(function(){
+		var currentURL = 'about.html';
+		currentURL = currentURL.substr(0,currentURL.length-5);
+		$('#menu_item_'+currentURL).addClass('is_active');
+	});
 </script>
 <div class="row">
-  <div class="large-8 medium-8 columns">
-    <div id="archives-page-wrap">
-        <h1>Archives</h1>
-        <div class="markdown-body archives-wrap">
-          
-             
-                <h1>2019</h1>
-            
-            <div class="article">
-              <a class="clearlink" href="taidu.html">
-                <h1>《态度》 —— 喜欢看吴军吹牛</h1>
-              </a>
-              <div class="read-more clearfix">
-                <span class="date">2019/6/26</span>
-                
-                 
-              </div>
-            </div><!-- article -->
 
-           
+    <div id="single-page-wrap">
+        <h1>About</h1>
+
+        <div class="markdown-body post-page">
+        <p>Hello, this is Li An, a software developer.<br/>
+I&#39;m going to sharing my life experience and technical stuff at here.<br/>
+You can reach me by social media。</p>
+
         </div>
-      </div>
-  </div>
-
- <div class="large-4 medium-4 columns">
-  <div class="hide-for-small">
-    <div id="sidebar" class="sidebar">
-          <div id="site-info" class="site-info">
-            
-                <div class="site-a-logo"><img src="/Users/kidy/Documents/cDLaPg3C_400x400.jpg" /></div>
-            
-                <h1>Li An's Blog</h1>
-                <div class="site-des">俩儿子的爹 | 专业出身的野路子软件工程师 | 买📷的理由是给老婆拍照 | 目前身材颜值均不在线</div>
-                <div class="social">
-<a target="_blank" class="facebook" href="https://www.facebook.com/Kidyli" title="Facebook">Facebook</a>
-
-
-
-
-
-
-<a target="_blank" class="weibo" href="https://weibo.com/kidylee" title="weibo">Weibo</a>
-<a target="_blank" class="twitter" target="_blank" href="https://twitter.com/KidyLee" title="Twitter">Twitter</a>
-<a target="_blank" class="github" target="_blank" href="https://github.com/kidylee" title="GitHub">GitHub</a>
-
-  <a target="_blank" class="rss" href="atom.xml" title="RSS">RSS</a>
-                
-              	 </div>
-          	</div>
-
-             
-
-              <div id="site-categories" class="side-item ">
-                <div class="side-header">
-                  <h2>Categories</h2>
-                </div>
-                <div class="side-content">
-
-      	<p class="cat-list">
-         
-        </p>
-
-
-                </div>
-              </div>
-
-              <div id="site-categories" class="side-item">
-                <div class="side-header">
-                  <h2>Recent Posts</h2>
-                </div>
-                <div class="side-content">
-                <ul class="posts-list">
-	      
-		      
-			      <li class="post">
-			        <a href="taidu.html">《态度》 —— 喜欢看吴军吹牛</a>
-			      </li>
-		     
-		   
-		  		</ul>
-                </div>
-              </div>
-        </div><!-- sidebar -->
-      </div><!-- hide for small -->
-</div><!-- large 4 -->
-
-</div><!-- row -->
-
+    </div>
+</div>              
  <div class="page-bottom clearfix">
   <div class="row">
    <p class="copyright">Copyright &copy; 2015
