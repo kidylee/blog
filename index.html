@@ -102,6 +102,105 @@
 		<div class="markdown-body home-categories">
 		
 			<div class="article">
+                <a class="clearlink" href="15667253867826.html">
+                
+                  <h1>刷题工作流</h1>
+                  <div class="a-content">
+                      
+                      <div class="a-content-text">
+                        
+                        	<blockquote>
+<p>刷题不容易，且刷且珍惜。</p>
+</blockquote>
+
+<p>对于一个长期持久的工作来说，产量和质量是关键，而要保证这两点，需要一个一个完整的流程来保证。</p>
+
+<h2 id="toc_0">流程质量</h2>
+
+<p>对于刷提的质量保证：</p>
+
+<ul>
+<li>对于每到题，掌握所有解法。</li>
+<li>完成后去leetcode讨论区查看是否由更简洁的写法。</li>
+<li>对文档进行归档，方便日后查看复习。</li>
+</ul>
+
+<p>为了达到上述目的，推荐选择使用Python来刷提，理由如下：</p>
+
+<ul>
+<li>语法糖多，相同逻辑比其他语言代码少。</li>
+<li>语法可读性高。</li>
+<li>最重要的是，由于是脚本语言，支持monkey patch既相同的方法名，后面的可以覆盖前面的，这样同一个文件，就可以存储多份解答方案，不至于出现编译错误，方便存档。</li>
+</ul>
+
+<h2 id="toc_1">使用到的工具</h2>
+
+<ul>
+<li>leetcode-cli
+<ul>
+<li>把问题和代码模板下载到本地</li>
+<li>可以使用测试用例校验代码</li>
+<li>提交代码到leetcode</li>
+</ul></li>
+<li>github</li>
+<li>Pycharm</li>
+</ul>
+
+<h2 id="toc_2">工作流：</h2>
+
+<p>平时刷提在leetcode的流程是：</p>
+
+<ol>
+<li>在浏览器中确定要解的题。</li>
+<li>使用leetcode cli下载到本地</li>
+<li>在Pycharm中解题</li>
+<li>使用leetcode cli跑测试代码</li>
+<li>使用leetcode 提交作业 并查看结果</li>
+<li>提交github存档</li>
+<li>回到步骤1。</li>
+</ol>
+
+<h2 id="toc_3">工具备忘录</h2>
+
+<h3 id="toc_4">Leetcode-cli</h3>
+
+<p><code>leetcode-cli</code>是基于leetcode的API提供的一个命令行工具，他是由nodejs编写的，所以只要使用npm就可以安装。安装完之后，使用命令行登录，再选择session，就可以开始刷题了:</p>
+
+<pre><code class="language-bash">npm install -g leetcode-cli
+leetcode user -l # login
+leetcode session # show all sessions
+leetcode session -e xxx # enable session by keyword
+</code></pre>
+
+<p>可以执行下面命令下载问题：</p>
+
+<pre><code class="language-bash">leetcode show 1 -g -l python3 -x
+</code></pre>
+
+<p><code>show</code>后面的数字表示第1题，如果不写数字，则是随机下载一道题；参数<code>-g</code>表示下载到本地并生成文件，<code>-x</code>表示在文件头部加上题目描述；<code>-l</code> 之后可以跟语言，完整的语言列表如下，我这里选了python3。</p>
+
+                        
+                      </div>
+                  </div>
+                </a>
+                <div class="read-more clearfix">
+                  <div class="more-left left">
+                  
+                    <span class="date">2019/8/25</span>
+                    
+          				   
+                  </div>
+                  <div class="more-right right">
+                  <span class="comments">
+                      
+
+                       
+                  </span>
+                  </div>
+                </div>
+              </div><!-- article -->
+        
+			<div class="article">
                 <a class="clearlink" href="taidu.html">
                 
                   <h1>《态度》 —— 喜欢看吴军吹牛</h1>
@@ -214,6 +313,12 @@
                 <div class="side-content">
                 <ul class="posts-list">
 	      
+		      
+			      <li class="post">
+			        <a href="15667253867826.html">刷题工作流</a>
+			      </li>
+		     
+		  
 		      
 			      <li class="post">
 			        <a href="taidu.html">《态度》 —— 喜欢看吴军吹牛</a>
